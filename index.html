@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"  defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="filtering-button-headings">Filtering Gallery</h1>
+      <div class="filter-buttons">
+          <button class="filter-button active"  data-filter="all">All</button>
+        <button class="filter-button "  data-filter="house">House</button>
+        <button class="filter-button "  data-filter="electronic">Electronics</button>
+        <button class="filter-button "  data-filter="gadget">Gadgets</button>
+         <button class="filter-button "  data-filter="office">Office</button>
+        <button class="filter-button "  data-filter="abstract">Abstract</button>
+      </div>
+      <div  class="gallery">
+        <!--House-->
+        <div class="gallery-item" data-category="house" >
+            <img src="imgs/12.jpg" alt="Modern House" class="img-category1">
+             <div class="caption">Modern House</div>
+        </div>
+        <div class="gallery-item" data-category="house">
+            <img src="imgs/11.jpg" alt="Cozy Cottage" class="img-category2">
+            <div class="caption">Cozy  Cottage</div>
+        </div>
+         <!--Electronics-->
+        <div class="gallery-item" data-category="electronic">
+            <img src="imgs/pexels-joshsorenson-1714206.jpg" alt="Speaker" class="img-category3">
+             <div class="caption">Speaker</div>
+        </div>
+        <div class="gallery-item" data-category="electronic">
+            <img src="imgs/10.jpg" alt="Smart Tv" class="img-category4">
+            <div class="caption">Smart Tv</div>
+        </div>
+
+        <!--Gadgets-->
+        <div class="gallery-item" data-category="gadget">
+            <img src="imgs/8.jpg" alt="gadget" class="img-category5">
+             <div class="caption">Smart Watch</div>
+        </div>
+        <div class="gallery-item" data-category="gadget">
+            <img src="imgs/pexels-s-mark-gor-2318680-15211929.jpg" alt="gadget"  class="img-category6">
+            <div class="caption">Gaming Controller</div>
+        </div>
+
+        <!--Office-->
+        <div class="gallery-item" data-category="office">
+            <img src="imgs/6.jpg" alt="office" class="img-category7">
+             <div class="caption">Modern Workspace</div>
+        </div>
+        <div class="gallery-item" data-category="office">
+            <img src="imgs/5.jpg" alt="office" class="img-category8">
+            <div class="caption">Office Desk</div>
+        </div>
+        <div class="gallery-item" data-category="office">
+            <img src="imgs/4.jpg" alt="office" class="img-category9">
+            <div class="caption">Meeting  Room</div>
+        </div>
+         <!--Abstract-->
+        <div class="gallery-item" data-category="abstract">
+            <img src="imgs/3.jpg" alt="abstract" class="img-category10">
+             <div class="caption">Abstract Art 3</div>
+        </div>
+        <div class="gallery-item" data-category="abstract">
+            <img src="imgs/2.jpg" alt="abstract" class="img-category11">
+            <div class="caption">Abstract Art 2</div>
+        </div>
+         <div class="gallery-item" data-category="abstract" >
+            <img src="imgs/1.jpg" alt="abstract"   class="img-category12">
+            <div class="caption">Abstract Art 1</div>
+        </div>
+      </div>
+    </div>
+    
+</body>
+</html>
